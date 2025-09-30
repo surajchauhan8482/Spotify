@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Varela&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: pink;
+}
+
+nav{
+    font-family: "Varela", sans-serif;
+        /* font-weight: 400;
+        font-style: normal; */
+      }
+
+
+nav ul{
+    background-color:black ;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    color: white;
+    list-style-type: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    border-radius: 50%;
+    background-color: pink;
+}
+
+nav ul li{
+    margin: 12px;
+}
+
+.contenar{
+      min-height: 72vh;
+      background-color: black;
+      color: white;
+      display: flex;
+      width: 75%;
+      background-image: url('ai image.avif');
+      background-size: cover;
+      margin: 23px auto;
+      border-radius: 12px;
+      }
+
+.songcontenar h1{
+    color: whitesmoke;
+    margin-left: 12px;
+}
+
+.songitem{
+      height: 35px;
+      width: 310px;
+      color: black;
+      background-color: white;
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      margin: 12px;
+
+}
+ .songitem img{
+      height: 35px;
+      width: 40px;
+
+ }
+
+.bottom{
+    height:130px ;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    color: white;
+    flex-direction: column;
+}
+
+.icon{
+    margin-top: 2px;
+}
+
+.icon i{
+    margin: 2px;
+}
+
+#myprogresbar{
+    width: 80vh;
+}
